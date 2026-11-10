@@ -4,147 +4,141 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
-<title>Tefa Bakery & Coffee - Politeknik Negeri Jember</title>
+<title>Tefa Bakery &amp; Coffee - Politeknik Negeri Jember</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<style>
-  html {
-  scroll-behavior: smooth;
-}
-</style>
-<body style="margin:0;background:#FFF3E2;color:#3A2A22;font-family:Inter,Arial,sans-serif;padding-top:env(safe-area-inset-top,0px);">
+<body class="page">
 
 <!-- HEADER -->
-<header style="position:sticky;top:0;z-index:100;background:#FAF6EC;border-bottom:1px solid #E6DCC8;padding:16px 5%;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;">
-  <div style="display:flex;align-items:center;gap:14px;">
-    <div style="width:62px;height:62px;border-radius:50%;background:#3A2A22;color:#fff;display:flex;align-items:center;justify-content:center;font-family:Lora,serif;font-style:italic;font-size:26px;border:3px solid #E6DCC8;">Sip</div>
+<header class="site-header">
+  <div class="brand">
+    <div class="brand-mark">Sip</div>
     <div>
-      <div style="font-family:Lora,serif;font-weight:600;font-size:34px;color:#A8472F;line-height:1.1;">Tefa Bakery & Coffee</div>
-      <div style="font-family:Lora,serif;font-weight:600;font-size:14px;margin-top:2px;">Politeknik Negeri Jember</div>
+      <div class="brand-title">Tefa Bakery &amp; Coffee</div>
+      <div class="brand-subtitle">Politeknik Negeri Jember</div>
     </div>
   </div>
-  <nav style="display:flex;gap:32px;font-size:14px;letter-spacing:.5px;">
-    <a href="#beranda" style="color:#A8472F;text-decoration:none;border-bottom:2px solid #A8472F;padding-bottom:6px;">BERANDA</a>
-    <a href="#produk" style="color:#3A2A22;text-decoration:none;padding-bottom:6px;">PRODUK</a>
-    <a href="#tentang" style="color:#3A2A22;text-decoration:none;padding-bottom:6px;">TENTANG</a>
+  <nav class="main-nav">
+    <a class="active" href="#beranda">BERANDA</a>
+    <a href="#produk">PRODUK</a>
+    <a href="#tentang">TENTANG</a>
   </nav>
-  <div style="font-size:14px;color:#6B5A50;">☀ Buka senin - jum'at · 07.00-16.00</div>
+  <div class="opening-status">☀ Buka senin - jum'at · 07.00-16.00</div>
 </header>
 
 <!-- HERO -->
-<section id="beranda" style="padding:80px 5% 64px;display:flex;flex-wrap:wrap;gap: 80px;align-items:center;">
-  <div style="flex:1 1 380px;min-width:0;">
-    <div style="display:flex;align-items:center;gap:14px;font-size:12px;letter-spacing:.6px;color:#A8472F;">
-      <span style="width:38px;height:1px;background:#A8472F;display:inline-block;"></span>DARI DAPUR KAMI, UNTUK ANDA
+<section id="beranda" class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="eyebrow-line"></span>DARI DAPUR KAMI, UNTUK ANDA</div>
+    <h1 class="hero-title">The Ultimate Taste, is Your Choice</h1>
+    <p class="hero-description">Dipanggang dengan penuh cinta dan harapan dari hati, pilih Roti pilihanmu sekarang!</p>
+    <div class="hero-actions">
+      <a class="button-primary" href="#produk">Jelajahi produk &nbsp;&nbsp;↗</a>
+      <a class="button-secondary" href="#tentang">Tentang Kami</a>
     </div>
-    <h1 style="font-family:Lora,serif;font-weight:400;font-size:clamp(40px,6vw,68px);line-height:1.15;margin:28px 0 32px;">The Ultimate Taste, is Your Choice</h1>
-    <p style="font-size:18px;line-height:1.8;color:#6B5A50;max-width:520px;margin:0 0 32px;">Dipanggang dengan penuh cinta dan harapan dari hati, pilih Roti pilihanmu sekarang!</p>
-    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:32px;">
-      <a href="#produk" style="background:#A8472F;color:#fff;text-decoration:none;padding:18px 28px;border-radius:3px;font-weight:500;font-size:16px;">Jelajahi produk &nbsp;&nbsp;↗</a>
-      <a href="#tentang" style="color:#A8472F;font-size:16px;">Tentang Kami</a>
-    </div>
-    <div style="margin-top:44px;font-size:14px;color:#8A7A70;">🥐 &nbsp;Dipanggang setiap pagi. Dinikmati sepenuh hati.</div>
+    <div class="hero-note">🥐 &nbsp;Dipanggang setiap pagi. Dinikmati sepenuh hati.</div>
   </div>
-  <div style="flex:1 1 380px;min-width:0;height:520px;border-radius:2px;background:radial-gradient(circle at 60% 60%,#E9A44F 0,#C97B3C 12%,transparent 30%),linear-gradient(135deg,#8B5E3C,#5A3A24 55%,#B58A5E);display:flex;align-items:center;justify-content:center;font-size:120px;">🧺</div>
+  <div class="hero-visual">🧺</div>
 </section>
 
 <!-- KEUNGGULAN -->
-<section style="background:#FAF6EC;border-top:1px solid #E6DCC8;border-bottom:1px solid #E6DCC8;padding:28px 5%;display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;font-size:15px;">
-  <span><span style="color:#A8472F;">✦</span> &nbsp;Dibuat segar setiap hari</span>
-  <span><span style="color:#A8472F;">✦</span> &nbsp;Bahan pilihan, rasa rumahan</span>
-  <span><span style="color:#A8472F;">✦</span> &nbsp;Teman sarapan &amp; berbagi</span>
+<section class="features">
+  <span><span class="accent">✦</span> &nbsp;Dibuat segar setiap hari</span>
+  <span><span class="accent">✦</span> &nbsp;Bahan pilihan, rasa rumahan</span>
+  <span><span class="accent">✦</span> &nbsp;Teman sarapan &amp; berbagi</span>
 </section>
 
 <!-- PRODUK -->
-<section id="produk" style="padding:80px 5% 88px;">
-  <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:flex-end;">
+<section id="produk" class="products">
+  <div class="products-heading">
     <div>
-      <div style="font-size:12px;letter-spacing:.6px;color:#A8472F;">PILIHAN DARI ETALASE KAMI</div>
-      <h2 style="font-family:Lora,serif;font-weight:400;font-size:clamp(32px,4vw,48px);margin:14px 0 0;">Yang selalu jadi favorit.</h2>
+      <div class="section-kicker">PILIHAN DARI ETALASE KAMI</div>
+      <h2 class="section-title">Yang selalu jadi favorit.</h2>
     </div>
-    <a href="#produk" style="color:#A8472F;text-decoration:none;font-size:20px;">Lihat semua produk ↗</a>
+    <a class="all-products" href="#produk">Lihat semua produk ↗</a>
   </div>
 
-  <div style="display:flex;flex-wrap:wrap;gap:32px;margin-top:40px;">
+  <div class="product-grid">
     <!-- Kartu 1 -->
-    <article style="flex:1 1 280px;min-width:0;background:#FFFAF2;border:1px solid #F3E6D2;padding:24px;box-sizing:border-box;">
-      <div style="position:relative;height:300px;background:linear-gradient(135deg,#D9C7AE,#B89B78);display:flex;align-items:center;justify-content:center;font-size:90px;">🥯
-        <span style="position:absolute;top:16px;left:16px;background:#FFFAF2;color:#A8472F;font-size:12px;padding:8px 14px;">FAVORIT</span>
+    <article class="product-card">
+      <div class="product-image product-image-chocolate">🥯
+        <span class="product-badge">FAVORIT</span>
       </div>
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:20px;">
-        <span style="font-size:12px;color:#6B5A50;">ROTI MANIS</span>
-        <span style="font-size:22px;font-weight:600;color:#A8472F;">Rp8.000</span>
+      <div class="product-meta">
+        <span class="product-category">ROTI MANIS</span>
+        <span class="product-price">Rp8.000</span>
       </div>
-      <h3 style="font-family:Lora,serif;font-weight:400;font-size:28px;margin:14px 0 10px;">Roti Cokelat Klasik</h3>
-      <p style="margin:0;color:#6B5A50;font-size:15px;">Roti lembut dengan isian cokelat melimpah.</p>
-      <div style="text-align:right;margin-top:24px;"><a href="#" style="color:#A8472F;text-decoration:none;font-size:15px;">Pesan roti ini ↗</a></div>
+      <h3 class="product-name">Roti Cokelat Klasik</h3>
+      <p class="product-description">Roti lembut dengan isian cokelat melimpah.</p>
+      <div class="product-order"><a href="#">Pesan roti ini ↗</a></div>
     </article>
     <!-- Kartu 2 -->
-    <article style="flex:1 1 280px;min-width:0;background:#FFFAF2;border:1px solid #F3E6D2;padding:24px;box-sizing:border-box;">
-      <div style="position:relative;height:300px;background:linear-gradient(135deg,#CDB89A,#A98B66);display:flex;align-items:center;justify-content:center;font-size:90px;">🧀
-        <span style="position:absolute;top:16px;left:16px;background:#FFFAF2;color:#A8472F;font-size:12px;padding:8px 14px;">FAVORIT</span>
+    <article class="product-card">
+      <div class="product-image product-image-cheese">🧀
+        <span class="product-badge">FAVORIT</span>
       </div>
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:20px;">
-        <span style="font-size:12px;color:#6B5A50;">ROTI MANIS</span>
-        <span style="font-size:22px;font-weight:600;color:#A8472F;">Rp9.000</span>
+      <div class="product-meta">
+        <span class="product-category">ROTI MANIS</span>
+        <span class="product-price">Rp9.000</span>
       </div>
-      <h3 style="font-family:Lora,serif;font-weight:400;font-size:28px;margin:14px 0 10px;">Roti Keju Susu</h3>
-      <p style="margin:0;color:#6B5A50;font-size:15px;">Gurihnya keju bertemu manisnya susu.</p>
-      <div style="text-align:right;margin-top:24px;"><a href="#" style="color:#A8472F;text-decoration:none;font-size:15px;">Pesan roti ini ↗</a></div>
+      <h3 class="product-name">Roti Keju Susu</h3>
+      <p class="product-description">Gurihnya keju bertemu manisnya susu.</p>
+      <div class="product-order"><a href="#">Pesan roti ini ↗</a></div>
     </article>
     <!-- Kartu 3 -->
-    <article style="flex:1 1 280px;min-width:0;background:#FFFAF2;border:1px solid #F3E6D2;padding:24px;box-sizing:border-box;">
-      <div style="position:relative;height:300px;background:linear-gradient(135deg,#D8C2A3,#C08A4E);display:flex;align-items:center;justify-content:center;font-size:90px;">🥖
-        <span style="position:absolute;top:16px;left:16px;background:#FFFAF2;color:#A8472F;font-size:12px;padding:8px 14px;">FAVORIT</span>
+    <article class="product-card">
+      <div class="product-image product-image-beef">🥖
+        <span class="product-badge">FAVORIT</span>
       </div>
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:20px;">
-        <span style="font-size:12px;color:#6B5A50;">ROTI GURIH</span>
-        <span style="font-size:22px;font-weight:600;color:#A8472F;">Rp12.000</span>
+      <div class="product-meta">
+        <span class="product-category">ROTI GURIH</span>
+        <span class="product-price">Rp12.000</span>
       </div>
-      <h3 style="font-family:Lora,serif;font-weight:400;font-size:28px;margin:14px 0 10px;">Roti Abon Sapi</h3>
-      <p style="margin:0;color:#6B5A50;font-size:15px;">Abon sapi gurih di atas roti yang empuk.</p>
-      <div style="text-align:right;margin-top:24px;"><a href="#" style="color:#A8472F;text-decoration:none;font-size:15px;">Pesan roti ini ↗</a></div>
+      <h3 class="product-name">Roti Abon Sapi</h3>
+      <p class="product-description">Abon sapi gurih di atas roti yang empuk.</p>
+      <div class="product-order"><a href="#">Pesan roti ini ↗</a></div>
     </article>
   </div>
 </section>
 
 <!-- MAMPIR -->
-<section id="tentang" style="background:#FDE5C4;padding:64px 5%;display:flex;flex-wrap:wrap;gap:64px;align-items:center;">
-  <div style="flex:1 1 320px;min-width:0;height:290px;border-radius:4px;background:linear-gradient(135deg,#8B5E3C,#4E3320 60%,#A9794A);display:flex;align-items:center;justify-content:center;font-size:90px;">🍞</div>
-  <div style="flex:2 1 420px;min-width:0;">
-    <div style="font-size:12px;letter-spacing:.6px;color:#A8472F;">MAMPIR, YUK!</div>
-    <h2 style="font-family:Lora,serif;font-weight:400;font-size:clamp(32px,4.5vw,52px);margin:20px 0;">Pagi hangat dimulai di sini.</h2>
-    <p style="font-size:17px;line-height:1.7;color:#6B5A50;margin:0 0 28px;">Untuk sarapan, bekal, atau oleh-oleh kecil di perjalanan pulang. Kami siap menyambut Anda setiap hari.</p>
-    <div style="border-top:1px solid #E6CFAC;border-bottom:1px solid #E6CFAC;padding:20px 0;display:flex;justify-content:space-between;font-size:16px;">
-      <span>Senin–Jum’at</span><span style="color:#A8472F;font-weight:600;">07.00–16.00 WIB</span>
+<section id="tentang" class="about">
+  <div class="about-visual">🍞</div>
+  <div class="about-copy">
+    <div class="section-kicker">MAMPIR, YUK!</div>
+    <h2 class="about-title">Pagi hangat dimulai di sini.</h2>
+    <p class="about-description">Untuk sarapan, bekal, atau oleh-oleh kecil di perjalanan pulang. Kami siap menyambut Anda setiap hari.</p>
+    <div class="about-hours">
+      <span>Senin–Jum’at</span><span class="hours-time">07.00–16.00 WIB</span>
     </div>
-    <a href="#tentang" style="display:inline-block;margin-top:24px;color:#A8472F;text-decoration:none;font-size:15px;">Temukan lokasi kami di halaman Tentang ↗</a>
+    <a class="about-location" href="#tentang">Temukan lokasi kami di halaman Tentang ↗</a>
   </div>
 </section>
 
 <!-- FOOTER -->
-<footer style="background:#3A2A22;color:#F3E6D2;padding:56px 5% calc(32px + env(safe-area-inset-bottom,0px));">
-  <div style="display:flex;flex-wrap:wrap;gap:48px;justify-content:space-between;">
-    <div style="flex:1 1 280px;max-width:420px;">
-      <div style="font-family:Lora,serif;font-size:56px;color:#fff;">Tefa Bakery & Coffee</div>
-      <p style="font-size:16px;line-height:1.7;margin:16px 0 0;">Roti hangat, cerita dekat. Dibuat dengan hati untuk menemani hari-hari sederhana.</p>
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="footer-brand">
+      <div class="footer-title">Tefa Bakery &amp; Coffee</div>
+      <p class="footer-description">Roti hangat, cerita dekat. Dibuat dengan hati untuk menemani hari-hari sederhana.</p>
     </div>
-    <div style="display:flex;flex-wrap:wrap;gap:64px;">
-      <div style="font-size:16px;line-height:2.2;">
-        <div style="font-size:12px;letter-spacing:.6px;color:#CDB8A4;margin-bottom:8px;">JELAJAHI</div>
+    <div class="footer-links">
+      <div class="footer-column">
+        <div class="footer-heading">JELAJAHI</div>
         <div>Beranda</div><div>Tentang</div><div>Produk</div>
       </div>
-      <div style="font-size:16px;line-height:2.2;">
-        <div style="font-size:12px;letter-spacing:.6px;color:#CDB8A4;margin-bottom:8px;">MARI TERHUBUNG</div>
+      <div class="footer-column">
+        <div class="footer-heading">MARI TERHUBUNG</div>
         <div>Instagram · @tefa.bakery ↗</div>
         <div>halo@tefa.bakery ↗</div>
-        <div style="font-size:12px;color:#CDB8A4;line-height:1.5;">Alamat dan kontak pada desain ini adalah contoh.</div>
+        <div class="footer-disclaimer">Alamat dan kontak pada desain ini adalah contoh.</div>
       </div>
     </div>
   </div>
-  <div style="border-top:1px solid #5A4538;margin-top:48px;padding-top:24px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-size:13px;color:#CDB8A4;">
-    <span>© 2026 Tefa Bakery & Coffee. Dibuat dengan sepenuh hati.</span>
+  <div class="footer-bottom">
+    <span>© 2026 Tefa Bakery &amp; Coffee. Dibuat dengan sepenuh hati.</span>
     <span>Konsep situs toko roti · Indonesia</span>
   </div>
 </footer>
